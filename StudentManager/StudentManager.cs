@@ -70,5 +70,15 @@ namespace StudentManager
                 Console.WriteLine("List is empty!!!");
             }
         }
+
+        public void DeleteStudent()
+        {
+            var id              = Validation.GetInt("Choose student ID to delete: ", $"Please input a number from 1 to {this.list.Count}!!!", "", 1, this.list.Count);
+            var studentToRemove = this.list.FirstOrDefault(student => student.Id == id);
+            var message         = studentToRemove != null ? $"Student with ID {id} has been deleted." : $"Student with ID {id} does not exist.";
+            this.list.Remove(studentToRemove);
+            Console.WriteLine(message);
+            this.ShowStudent();
+        }
     }
 }

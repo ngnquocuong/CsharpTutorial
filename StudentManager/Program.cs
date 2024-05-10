@@ -11,9 +11,12 @@
                     case 1:
                         manager.AddStudent();
 
-                        continue;
+                        break;
                     case 2:
                     case 3:
+                        manager.DeleteStudent();
+
+                        break;
                     case 4:
                     case 5:
                     case 6:
