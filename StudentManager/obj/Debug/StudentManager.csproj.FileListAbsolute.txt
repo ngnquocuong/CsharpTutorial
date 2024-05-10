@@ -1,0 +1,6 @@
+C:\Users\Admin\RiderProjects\CsharpLearning\StudentManager\bin\Debug\StudentManager.exe
+C:\Users\Admin\RiderProjects\CsharpLearning\StudentManager\bin\Debug\StudentManager.pdb
+C:\Users\Admin\RiderProjects\CsharpLearning\StudentManager\obj\Debug\StudentManager.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProjects\CsharpLearning\StudentManager\obj\Debug\StudentManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProjects\CsharpLearning\StudentManager\obj\Debug\StudentManager.exe
+C:\Users\Admin\RiderProjects\CsharpLearning\StudentManager\obj\Debug\StudentManager.pdb
