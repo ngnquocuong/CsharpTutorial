@@ -73,17 +73,7 @@ namespace StudentManager
 
         private readonly List<Student> list = new List<Student>();
 
-        private int GenerateId()
-        {
-            var max = 1;
-
-            if (this.list == null || this.list.Count <= 0) return max;
-            max = this.list[0].Id;
-            max = this.list.Select(sv => sv.Id).Concat(new[] { max }).Max();
-            max++;
-
-            return max;
-        }
+        private int GenerateId() => this.list.Count > 0 ? this.list.Max(sv => sv.Id) + 1 : 1;
 
         public void AddStudent()
         {
